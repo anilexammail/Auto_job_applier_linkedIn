@@ -1,6 +1,6 @@
 '''
 Author:     Anil Kumar Reddy            
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
+LinkedIn:  https://www.linkedin.com/in/anil-reddy-mudireddy-7951a5314/
 
 Copyright (C) 2024 Sai Vignesh Golla
 
