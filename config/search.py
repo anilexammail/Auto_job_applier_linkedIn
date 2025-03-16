@@ -1,6 +1,6 @@
 '''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
+Author:     Anil Kumar Reddy
+LinkedIn:   https://www.linkedin.com/in/anil-reddy-mudireddy-7951a5314/
 
 Copyright (C) 2024 Sai Vignesh Golla
 
@@ -17,10 +17,11 @@ version:    24.12.29.12.30
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer"]
+search_terms = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
+", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]
 
-# Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "United States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+# Search location, this will be filled in "City, state, pincode" search box. If left empty as "", tool will not fill it.
+search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
@@ -47,21 +48,23 @@ This is below format: QUESTION = VALID_ANSWER
 '''
 
 sort_by = ""                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = "Past week"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
-salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
+date_posted = "Past 24hrs"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+salary = "RS 460000+"                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
 
-experience_level = []              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
-job_type = []                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
-on_site = []                       # (multiple select) "On-site", "Remote", "Hybrid"
+experience_level = [Associate consultant]              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
+job_type = [Full-time]                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
+on_site = [Remote, Hybrid]                       # (multiple select) "On-site", "Remote", "Hybrid"
 
-companies = []                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
+companies = [Amazon, Tcs, Microsoft, Google, Oracle, Salesforce, Adobe, IBM, ServiceNow, PayPal, Paychex, Autodesk, Synopsys, Ansys, Workday, Paychex]                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
                                    # Eg: "7-eleven", "Google","X, the moonshot factory","YouTube","CapitalG","Adometry (acquired by Google)","Meta","Apple","Byte Dance","Netflix", "Snowflake","Mineral.ai","Microsoft","JP Morgan","Barclays","Visa","American Express", "Snap Inc", "JPMorgan Chase & Co.", "Tata Consultancy Services", "Recruiting from Scratch", "Epic", and so on...
-location = []                      # (dynamic multiple select)
-industry = []                      # (dynamic multiple select)
-job_function = []                  # (dynamic multiple select)
-job_titles = []                    # (dynamic multiple select)
+location = [Hyderbad,Bangalore,Mumbai,pune,chennai]                      # (dynamic multiple select)
+industry = [Software industry]                      # (dynamic multiple select)
+job_function = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
+", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]                  # (dynamic multiple select)
+job_titles = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
+", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]                    # (dynamic multiple select)
 benefits = []                      # (dynamic multiple select)
 commitments = []                   # (dynamic multiple select)
 
@@ -119,6 +122,6 @@ As an independent developer, I pour my heart and soul into creating tools like t
 Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 Gratefully yours 🙏🏻,
-Sai Vignesh Golla
+Anil Kumar Reddy
 '''
 ############################################################################################################
