@@ -1,5 +1,5 @@
 '''
-Author:     Sai Vignesh Golla
+Author:     Anil Kumar Reddy            
 LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
 
 Copyright (C) 2024 Sai Vignesh Golla
@@ -17,8 +17,8 @@ version:    24.12.3.10.30
 
 
 # Login Credentials for LinkedIn (Optional)
-username = "username@example.com"       # Enter your username in the quotes
-password = "example_password"           # Enter your password in the quotes
+username = "anilexammail@gmail.com"       # Enter your username in the quotes
+password = "Anilreddy@99"           # Enter your password in the quotes
 
 
 ## Artificial Intelligence (Beta Not-Recommended)
@@ -83,6 +83,6 @@ As an independent developer, I pour my heart and soul into creating tools like t
 Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 Gratefully yours 🙏🏻,
-Sai Vignesh Golla
+Anil Kumar Reddy
 '''
 ############################################################################################################
