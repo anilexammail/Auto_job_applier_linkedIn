@@ -18,7 +18,7 @@ version:    24.12.29.12.30
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
 search_terms = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
-", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]
+", "Data Analyst", "Technical associate", "System Administrator", "IT Support Engineer"]
 
 # Search location, this will be filled in "City, state, pincode" search box. If left empty as "", tool will not fill it.
 search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
@@ -62,9 +62,9 @@ companies = [Amazon, Tcs, Microsoft, Google, Oracle, Salesforce, Adobe, IBM, Ser
 location = [Hyderbad,Bangalore,Mumbai,pune,chennai]                      # (dynamic multiple select)
 industry = [Software industry]                      # (dynamic multiple select)
 job_function = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
-", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]                  # (dynamic multiple select)
+", "Data Analyst", "Technical associate", "System Administrator", "IT Support Engineer"]                  # (dynamic multiple select)
 job_titles = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
-", "Customer support executive", "Technical associate", "IT Customer Service Associate", "Application Support Engineer"]                    # (dynamic multiple select)
+", "Data Analyst", "Technical associate", "System Administrator", "IT Support Engineer"]                    # (dynamic multiple select)
 benefits = []                      # (dynamic multiple select)
 commitments = []                   # (dynamic multiple select)
 
