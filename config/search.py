@@ -53,14 +53,14 @@ salary = "RS 460000+"                        # "$40,000+", "$60,000+", "$80,000+
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
 
-experience_level = [Associate consultant]              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
-job_type = [Full-time]                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
-on_site = [Remote, Hybrid]                       # (multiple select) "On-site", "Remote", "Hybrid"
+experience_level = ["Associate"]              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
+job_type = ["Full-time"]                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
+on_site = ["Remote, Hybrid"]                       # (multiple select) "On-site", "Remote", "Hybrid"
 
-companies = [Amazon, Tcs, Microsoft, Google, Oracle, Salesforce, Adobe, IBM, ServiceNow, PayPal, Paychex, Autodesk, Synopsys, Ansys, Workday, Paychex]                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
+companies = ["Amazon, Tcs, Microsoft, Google, Oracle, Salesforce, Adobe, IBM, ServiceNow, PayPal, Paychex, Autodesk, Synopsys, Ansys, Workday, Paychex"]                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
                                    # Eg: "7-eleven", "Google","X, the moonshot factory","YouTube","CapitalG","Adometry (acquired by Google)","Meta","Apple","Byte Dance","Netflix", "Snowflake","Mineral.ai","Microsoft","JP Morgan","Barclays","Visa","American Express", "Snap Inc", "JPMorgan Chase & Co.", "Tata Consultancy Services", "Recruiting from Scratch", "Epic", and so on...
-location = [Hyderbad,Bangalore,Mumbai,pune,chennai]                      # (dynamic multiple select)
-industry = [Software industry]                      # (dynamic multiple select)
+location = ["Hyderbad,Bangalore,Mumbai,pune,chennai"]                      # (dynamic multiple select)
+industry = ["Software industry"]                      # (dynamic multiple select)
 job_function = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
 ", "Data Analyst", "Technical associate", "System Administrator", "IT Support Engineer"]                  # (dynamic multiple select)
 job_titles = ["Software Engineer", "Quality Associate", "Customer service Associate", "Service desk analyst", "Technical Support Engineer 
